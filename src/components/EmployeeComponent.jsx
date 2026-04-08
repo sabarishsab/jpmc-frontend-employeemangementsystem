@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import {
   createEmployee,
   getEmployeeById,
-  updateEmployee
+  updateEmployee,
 } from "../service/EmployeeService";
 import { useNavigate, useParams } from "react-router-dom";
 
